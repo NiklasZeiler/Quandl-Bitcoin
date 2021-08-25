@@ -1,0 +1,35 @@
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+        }
+
+        .dateInput {
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid black;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .btn {
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid black;
+            font-size: 15px;
+            font-weight: 600;
+            
+        }
+        
+        .btn:hover {
+            cursor: pointer;
+            background-color: blue;
+            color: white;
+        }
